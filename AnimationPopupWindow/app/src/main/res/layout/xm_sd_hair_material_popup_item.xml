@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="100dp"
+    android:orientation="vertical"
+    android:gravity="center">
+    <android.support.v7.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        app:cardCornerRadius="4dp"
+        app:cardBackgroundColor="#00ffffff"
+        app:cardElevation="0px"
+        app:contentPaddingBottom="-20dp"
+        app:contentPaddingTop="-20dp"
+        app:cardMaxElevation="2px"
+        app:cardUseCompatPadding="false">
+        <RelativeLayout
+            android:layout_width="46dp"
+            android:layout_height="64dp"
+            android:orientation="vertical"
+            android:gravity="center">
+            <ImageView
+                android:id="@+id/ivHairLength"
+                android:layout_width="46dp"
+                android:layout_height="46dp"
+                android:src="@drawable/xm_3dayfree_icon"/>
+            <TextView
+                android:id="@+id/tvHairLength"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/ivHairLength"
+                android:gravity="center"
+                android:background="#F8F7FC"
+                android:text="中发"
+                android:textColor="#39364D"
+                android:textSize="10sp"/>
+            <LinearLayout
+                android:id="@+id/llItem"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"/>
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>

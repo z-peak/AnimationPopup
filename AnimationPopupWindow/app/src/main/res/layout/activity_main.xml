@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_alignParentBottom="true"
+        android:background="@color/common_color_white"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/tabHairstyleBooks"
+            style="@style/SceneDesignTab"
+            android:button="@null"
+            android:drawableTop="@drawable/xm_selector_tab_sd_hairstyle_books"
+            android:onClick="hairstyleBookClick"
+            android:text="@string/xm_tab_sd_hairstyles_books" />
+
+        <RadioButton
+            android:id="@+id/tabHairLength"
+            style="@style/SceneDesignTab"
+            android:background="@drawable/tab_shadow_bg"
+            android:button="@null"
+            android:drawableTop="@drawable/xm_selector_tab_sd_hair_length"
+            android:onClick="hairLengthClick"
+            android:text="@string/xm_tab_sd_length" />
+
+        <RadioButton
+            android:id="@+id/tabFringe"
+            style="@style/SceneDesignTab"
+            android:button="@null"
+            android:drawableTop="@drawable/xm_selector_tab_sd_fringe"
+            android:onClick="fringeClick"
+            android:text="@string/xm_tab_sd_fringe" />
+
+        <RadioButton
+            android:id="@+id/tabCenter"
+            style="@style/SceneDesignTab"
+            android:button="@null"
+            android:drawableTop="@drawable/xm_selector_tab_sd_center"
+            android:onClick="centerClick"
+            android:text="@string/xm_tab_sd_center" />
+
+        <RadioButton
+            android:id="@+id/tabColor"
+            style="@style/SceneDesignTab"
+            android:button="@null"
+            android:drawableTop="@drawable/xm_selector_tab_sd_color"
+            android:onClick="colorClick"
+            android:text="@string/xm_tab_sd_color" />
+
+        <RadioButton
+            android:id="@+id/tabTexture"
+            style="@style/SceneDesignTab"
+            android:button="@null"
+            android:drawableTop="@drawable/xm_selector_tab_sd_texture"
+            android:onClick="textureClick"
+            android:text="@string/xm_tab_sd_texture" />
+    </RadioGroup>
+</RelativeLayout>

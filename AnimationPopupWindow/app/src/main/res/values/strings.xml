@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">AnimationPopupWindow</string>
+
+    <string name="xm_tab_sd_hairstyles_books">发型册</string>
+    <string name="xm_tab_sd_length">长度</string>
+    <string name="xm_tab_sd_fringe">刘海</string>
+    <string name="xm_tab_sd_center">层次</string>
+    <string name="xm_tab_sd_color">颜色</string>
+    <string name="xm_tab_sd_texture">卷度</string>
+</resources>
